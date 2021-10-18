@@ -1,0 +1,77 @@
+.header {
+  background-color: #88d3d3;
+  align-items: center;
+  color: rgb(15, 15, 15);
+}
+
+.logo {
+  width: 100px;
+  height: 90px;
+  margin: 10px;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+}
+
+body,
+html {
+  background-color: rgb(176, 222, 236);
+
+  height: 100%;
+  margin: 0;
+  background-image: linear-gradient(#553ebe, #88d3d3);
+}
+
+.mySlides {
+  float: left;
+  border-color: black;
+  border: 2px;
+  margin-bottom: 10px;
+  margin-right: 10%;
+}
+
+footer {
+  text-align: center;
+  color: rgb(7, 7, 7);
+  margin-top: 100px;
+}
+
+/* aside {
+  background-color: black;
+  color: rgb(219, 219, 215);
+  margin-top: 10px;
+  padding: 10px;
+} */
+
+main {
+  margin: 5px;
+  width: 80%;
+  height: 50%;
+  overflow: auto;
+}
+
+nav {
+  display: block;
+  background-color: black;
+  color: rgb(219, 219, 215);
+}
+
+section {
+  border: 5px;
+}
+
+a.active {
+  background-color: rgb(240, 225, 95);
+  color: white;
+}
+
+.related {
+  float: right;
+  background-color: black;
+  color: rgb(219, 219, 215);
+  padding-right: 30px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
